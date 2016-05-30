@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.net.MalformedURLException;
 
 /**
  * Created by Brad
@@ -16,7 +15,7 @@ public class LoaderTest {
     public void test() throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, InvocationTargetException, InterruptedException {
         Loader loader = new Loader();
         while(true) {
-            loader.load("C:\\Users\\bmr01\\Documents\\GitHub\\ai\\TestJar\\build\\libs/TestJar-1.0-SNAPSHOT.jar");
+            loader.loadJar("C:\\Users\\bmr01\\Documents\\GitHub\\ai\\TestJar\\build\\libs/TestJar-1.0-SNAPSHOT.jar");
             Thread.sleep(100);
         }
     }

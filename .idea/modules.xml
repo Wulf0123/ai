@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DynamicModule/DynamicModule.iml" filepath="$PROJECT_DIR$/DynamicModule/DynamicModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestJar/TestJar.iml" filepath="$PROJECT_DIR$/TestJar/TestJar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UI/UI.iml" filepath="$PROJECT_DIR$/UI/UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/ai.iml" filepath="$PROJECT_DIR$/ai.iml" />
     </modules>

@@ -1,4 +1,4 @@
-include 'TestJar', 'DynamicModule', 'Utils'
+include 'UI', 'DynamicModule', 'Utils'
 
 rootProject.children.each{ p ->
     p.children.each{ i->
