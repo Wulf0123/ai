@@ -1,0 +1,7 @@
+include 'TestJar', 'DynamicModule', 'Utils'
+
+rootProject.children.each{ p ->
+    p.children.each{ i->
+        i.buildFileName = "build-${i.name}.gradle"
+    }
+}
